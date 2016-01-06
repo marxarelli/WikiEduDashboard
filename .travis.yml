@@ -8,7 +8,10 @@ env:
     AFTER_SUCCESS=''
 
 language: ruby
-rvm: 2.1.5
+rvm:
+  - 2.3.0
+  - 2.1.5
+  - 2.2.4
 sudo: false
 cache:
   apt: true
@@ -79,4 +82,3 @@ notifications:
   slack:
     rooms:
     - secure: OZcMEKx3prPJva4P6W0E55pSMWnTWdm7d6bBZ6B66LewU9Ge6parEJcaUAAH+sNbi0lvDvMG7Ivs9FKHDU3DoJXNmKG1ow4QpZ0EIMkaBxUWgQRELw2l375G+8vz/VpH3W4zTmVsYWmcaMSER+PmclnBMGQma8vR8JVLVuIDMHU=
-
